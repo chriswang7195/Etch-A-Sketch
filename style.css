@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.etch-container {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 100vh;
+}
+
+.frame {
+  flex-direction: column;
+  background-color: red;
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;    
+  border-radius: 10px;
+  border-top: 6px solid rgba(255,255,255,.5);
+  border-left: 6px solid rgba(255,255,255,.5);  
+  border-right: 6px solid rgba(0,0,0,.3);  
+  border-bottom: 6px solid rgba(0,0,0,.3);  
+  box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.32);
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.32);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.32);    
+}
+
+#canvas {
+  box-shadow: inset 0px 0px 20px rgba(0,0,0,1);
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.title, .author {
+  color: yellow;
+  font-family: 'Cabin Sketch', Arial, sans-serif;
+  font-size: 40px;
+}
+
+.author {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+}
+
+.manual {
+  width: 600px;
+  text-align: left;
+}
+
+.manual p {
+  margin: 5px 0;
+  font-family: 'Cabin Sketch', Arial, sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.highlight {
+  color: yellow;
+  font-weight: bold;
+}
